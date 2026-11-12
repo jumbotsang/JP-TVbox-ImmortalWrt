@@ -7,7 +7,7 @@ git clone --depth=1 https://github.com/ophub/luci-app-amlogic.git package/luci-a
 git clone --depth=1 https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
 # Nikki is a multi-package feed; install it through OpenWrt's feed manager.
 grep -q '^src-git nikki ' feeds.conf.default || \
-    echo 'src-git nikki https://github.com/nikkinikki-org/OpenWrt-nikki.git;openwrt-25.12' >> feeds.conf.default
+    echo 'src-git nikki https://github.com/nikkinikki-org/OpenWrt-nikki.git;main' >> feeds.conf.default
 ./scripts/feeds update nikki
 ./scripts/feeds install -a -p nikki
 # BusyBox tar in OpenWrt does not necessarily auto-detect gzip archives.
