@@ -24,6 +24,5 @@ The build script patches the Crystal Box kernel updater to use tar -xzf for its 
 - [ophub OpenWrt build guide](https://github.com/ophub/amlogic-s9xxx-openwrt/blob/main/documents/README.cn.md)
 - [ophub/amlogic-s9xxx-openwrt](https://github.com/ophub/amlogic-s9xxx-openwrt)
 - [unifreq/openwrt_packit](https://github.com/unifreq/openwrt_packit)
-- [nantayo/N1-OpenWrt](https://github.com/nantayo/N1-OpenWrt)
 - [OpenWrt-nikki](https://github.com/nikkinikki-org/OpenWrt-nikki)
 - [luci-theme-argon](https://github.com/jerrykuku/luci-theme-argon)
