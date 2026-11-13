@@ -26,6 +26,4 @@ The build script patches the Crystal Box kernel updater to use tar -xzf for its 
 - [ophub/amlogic-s9xxx-openwrt](https://github.com/ophub/amlogic-s9xxx-openwrt)
 - [unifreq/openwrt_packit](https://github.com/unifreq/openwrt_packit)
 - [OpenWrt-nikki](https://github.com/nikkinikki-org/OpenWrt-nikki)
-- [ImmortalWrt 25.12 packages: AdGuardHome](https://github.com/immortalwrt/packages/tree/openwrt-25.12/net/adguardhome)
-- [ImmortalWrt 25.12 LuCI: AdGuardHome](https://github.com/immortalwrt/luci/tree/openwrt-25.12/applications/luci-app-adguardhome)
 - [luci-theme-argon](https://github.com/jerrykuku/luci-theme-argon)
