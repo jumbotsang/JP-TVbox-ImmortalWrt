@@ -9,8 +9,6 @@ GitHub Actions project for building an ImmortalWrt ARMv8 root filesystem and pac
 - Theme: Argon (luci-theme-argon)
 - Default LAN address: 192.168.50.2
 The root filesystem uses the armsr/armv8 Generic EFI target required by the TV-box packaging workflow. The project uses the unifreq/openwrt_packit packaging action and the JP-TVbox custom pack script.
-## AdGuardHome
-The firmware build selects both adguardhome and luci-app-adguardhome from the ImmortalWrt 25.12 package and LuCI feeds. The package recipe builds the AdGuardHome source and frontend during the firmware build; it is not installed later from the router's runtime package manager. The LuCI package depends on the adguardhome service. After first boot, open the AdGuardHome page in LuCI and complete its initial setup, including the web interface and DNS listening ports. Check that its DNS port does not conflict with dnsmasq before enabling it as the LAN DNS service.
 ## Start a build
 1. Open Actions → Build JP-TVbox ImmortalWrt → Run workflow.
 2. The source branch defaults to v25.12.2; you can select another ImmortalWrt branch when running the workflow.
